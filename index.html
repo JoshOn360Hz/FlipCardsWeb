@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>FlipCards - Study Smarter with Digital Flashcards</title>
+  <meta name="description" content="FlipCards is a simple, modern flashcard app for iOS. Create, organize, and quiz yourself with digital flashcards featuring a clean, intuitive interface.">
+  
+  <link rel="icon" type="image/png" href="flipcards/src/favicon-96x96.png" sizes="96x96" />
+  <link rel="icon" type="image/svg+xml" href="flipcards/src/favicon.svg" />
+  <link rel="shortcut icon" href="flipcards/src/favicon.ico" />
+  <link rel="apple-touch-icon" sizes="180x180" href="flipcards/src/apple-touch-icon.png" />
+  <meta name="apple-mobile-web-app-title" content="FlipCards" />
+  <link rel="manifest" href="flipcards/src/site.webmanifest" />
+  
+  <link rel="preload" as="image" href="flipcards/src/logo.png">
+  <link rel="preload" as="image" href="flipcards/src/sc1.png">
+  <link rel="preload" as="image" href="flipcards/src/sc2.png">
+  <link rel="preload" as="image" href="flipcards/src/sc3.png">
+  
+  <link rel="stylesheet" href="flipcards/style.css">
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer">
+
+  <meta property="og:title" content="FlipCards - Study Smarter with Digital Flashcards">
+  <meta property="og:description" content="Create, organize, and quiz yourself with digital flashcards using FlipCards' clean, modern interface for iOS.">
+  <meta property="og:type" content="website">
+</head>
+<body>
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <h1>FlipCards</h1>
+      </div>
+      
+      <div class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#features" class="nav-link">Features</a>
+        <a href="#privacy" class="nav-link">Privacy</a>
+        <a href="mailto:feedback@appsbyjosh.com?subject=Contacting%20FlipCards&body=Hi%2C%20I%20have%20a%20question..." class="nav-link">Contact</a>
+      </div>
+      
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <img src="flipcards/src/logo.png" alt="FlipCards App Icon" class="app-icon-hero">
+      <h1 class="hero-title">
+        <span class="line">Study Smarter with</span>
+        <span class="line"><span class="text-gradient">FlipCards.</span></span>
+      </h1>
+      <p class="hero-subtitle">
+        Create, organize, and quiz yourself with digital flashcards using FlipCards' clean, modern interface for iOS.
+      </p>
+      <div class="hero-buttons">
+       <!-- <a href="" target="_blank" class="download-button">
+          <i class="fab fa-apple"></i> Download on App Store
+        </a>-->
+        <a href="https://testflight.apple.com/join/2hBxWMNR" target="_blank" class="beta-button">
+          <i class="fas fa-flask"></i> TestFlight Beta
+        </a>
+      </div>
+    </div>
+  </section>
+  
+  <section id="features" class="features-section">
+    <div class="section-header">
+      <h2>Why Choose FlipCards?</h2>
+      <p>Three simple reasons that make all the difference</p>
+    </div>
+    
+    <div class="features-container">
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-gift"></i>
+          </div>
+          <h3>Free Forever</h3>
+          <p>No accounts. No ads. No subscriptions. FlipCards is 100% free and always will be.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>Privacy First</h3>
+          <p>Everything stays on your device. No tracking, no data collection, no compromises.</p>
+        </div>
+        
+        <div class="feature-card">
+          <div class="feature-icon">
+            <i class="fas fa-universal-access"></i>
+          </div>
+          <h3>Accessible</h3>
+          <p>Built with accessibility in mind, supporting VoiceOver, voice control, and more.</p>
+        </div>
+      </div>
+      
+      <div class="tech-grid">
+        <div class="tech-card">
+          <div class="tech-icon">
+          <i class="fa-brands fa-swift"></i>  
+                </div>
+          <h3>SwiftUI</h3>
+          <p>Modern, declarative UI framework for building beautiful interfaces across all Apple platforms</p>
+        </div>
+        
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fas fa-brain"></i>
+          </div>
+          <h3>Smart Learning</h3>
+          <p>Instead of scrolling socials why not use your phone for learning!</p>
+        </div>
+        
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3>Deck Organization</h3>
+          <p>Create and organize multiple flashcard decks by subject, difficulty, or any system that works for you</p>
+        </div>
+        
+        <div class="tech-card">
+          <div class="tech-icon">
+            <i class="fa-brands fa-swift"></i>
+          </div>
+          <h3>SwiftData</h3>
+          <p>Powerful data persistence framework for storing your flashcards securely on device.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="screenshots" class="screenshots-section">
+    <div class="section-header">
+      <h2>See FlipCards in Action</h2>
+      <p>Beautiful flashcard learning with a clean, modern interface</p>
+    </div>
+    <div class="screenshots-container">
+      <div class="screenshot-item">
+        <img src="flipcards/src/sc1.png" alt="FlipCards Deck List" class="screenshot-img">
+      </div>
+      <div class="screenshot-item">
+        <img src="flipcards/src/sc2.png" alt="FlipCards Study Mode" class="screenshot-img">
+      </div>
+      <div class="screenshot-item">
+        <img src="flipcards/src/sc3.png" alt="FlipCards Settings" class="screenshot-img">
+      </div>
+    </div>
+  </section>
+
+  <section id="privacy" class="privacy-section">
+    <div class="section-header">
+      <h2>Your Privacy is <span class="text-gradient">Important</span></h2>
+      <p>In a world where your data is constantly harvested, FlipCards takes a different approach. We believe your study data is yours alone.</p>
+    </div>
+    
+    <div class="privacy-container">
+      <div class="privacy-grid">
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <i class="fas fa-shield-alt"></i>
+          </div>
+          <h3>No Tracking</h3>
+          <p>Zero analytics, ads, or third-party libraries</p>
+        </div>
+        
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <i class="fas fa-user-slash"></i>
+          </div>
+          <h3>No Accounts</h3>
+          <p>No sign-ups, logins, or personal information required</p>
+        </div>
+        
+        <div class="privacy-card">
+          <div class="privacy-icon">
+            <i class="fas fa-mobile-alt"></i>
+          </div>
+          <h3>On Device Only</h3>
+          <p>All data stays locally on your device, always</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="accessibility" class="accessibility-section">
+    <div class="section-header">
+      <h2>Built for <span class="text-gradient">Everyone</span></h2>
+      <p>Accessibility isn't an afterthought. It's fundamental to great design.</p>
+    </div>
+    
+    <div class="accessibility-grid">
+      <div class="accessibility-card">
+        <i class="fas fa-volume-up"></i>
+        <h3>VoiceOver</h3>
+        <p>Full compatibility with screen readers and assistive technologies</p>
+      </div>
+      
+      <div class="accessibility-card">
+        <i class="fas fa-microphone"></i>
+        <h3>Voice Control</h3>
+        <p>Navigate and control the app using voice commands</p>
+      </div>
+      
+      <div class="accessibility-card">
+        <i class="fas fa-eye"></i>
+        <h3>Visual Clarity</h3>
+        <p>Clear visual indicators that don't rely on color alone</p>
+      </div>
+      
+      <div class="accessibility-card">
+        <i class="fas fa-text-height"></i>
+        <h3>Dynamic Type</h3>
+        <p>Adjustable text size for optimal readability</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-content">
+      <p>&copy; 2025 FlipCards. All rights reserved.</p>
+      <p>Made with ❤️ by Josh</p>
+    </div>
+  </footer>
+
+  <script src="flipcards/script.js"></script>
+</body>
+</html>
+
